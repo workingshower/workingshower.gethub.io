@@ -1,0 +1,342 @@
+  @font-face {
+    font-family: "MollySansBlack";
+    src: url(fonts/MollySansN-Bl_PERSONAL.ttf) format("truetype");
+}   
+
+  @font-face {
+    font-family: "MollySansBold";
+    src: url(fonts/MollySansN-Bo_PERSONAL.ttf) format("truetype");
+}   
+  @font-face {
+    font-family: "MollySansLight";
+    src: url(fonts/MollySansN-Li_PERSONAL.ttf) format("truetype");
+}   
+  @font-face {
+    font-family: "MollySansThin";
+    src: url(fonts/MollySansN-Th_PERSONAL.ttf) format("truetype");
+}   
+
+   body {
+      margin: 0px 0px 0px 0px;
+      height: 100%;
+    }
+
+
+
+    #home { 
+        background-image: url("https://i.imgur.com/Qwy9eYp.png"), url("https://i.imgur.com/xNqyOue.png");
+        background-position: center top, center center;
+        background-repeat: no-repeat, repeat-y;
+        background-size: 50%, 100%;
+        height: 100%;
+    }
+
+    .projectPage { 
+        background-image: url("https://i.imgur.com/xNqyOue.png");
+        background-position: center center;
+        background-repeat: repeat-y;
+        background-size: 100%;
+        height: 100%;
+    }
+    
+    .steam {
+        position: relative;
+        min-height: 100%;
+        width: 100%;
+        padding-top: 33%;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8));
+    }
+
+     .overlay {
+      height: 100%;
+      width: 100%;
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8));
+      position: fixed;
+      top: 0;
+      z-index: 1;
+    }
+
+    .container {
+        position: relative;
+        min-height: 100%;
+        width: 84.59%;
+        max-width: 84.59%;
+        padding-top: 33%;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 2;
+    }
+    
+    .menu {
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+        border-radius: 0.3%;
+        height: auto;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.5);
+    }
+
+    .repeater {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+
+    }
+
+    img.logo {
+      height: 50%;
+    }
+
+    .projectLink {
+      cursor: pointer;
+    }
+
+    .logo {
+      width: 100%;
+      opacity: 0.38;
+      /*filter: blur(.3px);*/
+      object-fit: contain;
+      /* filter: blur(.5px) opacity(60%);
+      background-blend-mode: multiply; */
+    }
+
+    .campaignName {
+      text-align: center;
+      margin-top: -25%;
+      font-family: "MollySansLight";
+      font-size: 0.7em;
+      opacity: 0.38;
+    }
+
+    #openHousetitle {
+      margin-top: -30%;
+    }
+
+    #insidersTitle {
+      margin-top: -34%;
+    }
+
+    .listHeadlineBlock {
+      padding-top: 6.5%;
+      opacity: 0.38;
+    }
+
+    .listHeadline {
+      text-align: center;
+      font-family: "MollySansBold";
+
+    }
+
+    #horizonRepeater {
+      margin-top: -25px;
+    }
+
+    .flexContainer {
+      /*padding-top: 33%;*/
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .flexContainer2 {
+      /*padding-top: 33%;*/
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .HorizonDescription {
+      font-family: sans-serif;
+      font-size: .8em;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      text-align: justify;
+
+    }
+
+    .parent {
+      position: relative;
+      z-index: 3;
+      display: flex;
+    }
+
+    .columnLeft {
+      max-width: 54%;
+    }
+
+    .columnRight {
+      max-width: 50%;
+      min-height: 100%;
+      text-align: center;
+    }
+
+    .OpenHouseImage {
+      max-width: 100%;
+    }
+
+    .IkeaDescription {
+      font-family: sans-serif;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-size: .8em;
+      text-align: left;
+    }
+
+    .bulletBox {
+      position: relative;
+      height: 25%;
+      display: inline-flex;
+      align-items: center;
+      padding-left: 5%;
+      }
+
+
+    .horizonHeadline {
+      font-family: "MollySansBold";
+      margin-right: auto;
+      margin-left: auto;
+      z-index: 2;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      text-align: center;
+      opacity: .43;
+    }
+
+    @media only screen and (max-width: 585px){
+      .horizonHeadline {
+        font-size: 1em;
+      }
+    }
+
+    .iframeContainer {
+      overflow: hidden;
+      padding-top: 56.25%;
+      position: relative;
+    }
+
+     .iframeContainer iframe {
+      border: 0;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+
+     }
+
+    iframe {
+      z-index: 2;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .homeButton { 
+      position: absolute;
+      width: 28%;
+      min-height: 20%;
+      margin-right: 36%;
+      margin-left: 36%;
+      top: 10px;
+      z-index: 999;
+    }
+
+    .full-widthFlex{
+      width: 100%;
+      height: 20%;
+      background-color: red;
+      display: inline-flex;
+    }
+
+    .left {
+      width: 54%;
+    }
+
+    .left img {
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .right {
+      width: 46%;
+    }
+
+    .right img {
+      width: 100%;
+    }
+
+      @media only screen and (min-width: 550px) {
+        .homeButton {
+          min-height: 22%;
+        }
+      @media only screen and (min-width: 600px) {
+        .homeButton {
+          min-height: 24%;
+        }
+      @media only screen and (min-width: 650px) {
+        .homeButton {
+          min-height: 26%;
+        }
+      @media only screen and (min-width: 700px) {
+        .homeButton {
+          min-height: 28%;
+        }
+      @media only screen and (min-width: 750px) {
+        .homeButton {
+          min-height: 30%;
+        }
+      @media only screen and (min-width: 800px) {
+        .homeButton {
+          min-height: 32%;
+        }
+      @media only screen and (min-width: 850px) {
+        .homeButton {
+          min-height: 34%;
+        }
+      @media only screen and (min-width: 900px) {
+        .homeButton {
+          min-height: 36%;
+        }
+      @media only screen and (min-width: 950px) {
+        .homeButton {
+          min-height: 38%;
+        }
+      @media only screen and (min-width: 1000px) {
+        .homeButton {
+          min-height: 40%;
+        }
+      @media only screen and (min-width: 1050px) {
+        .homeButton {
+          min-height: 42%;
+        }
+      @media only screen and (min-width: 1100px) {
+        .homeButton {
+          min-height: 44%;
+        }
+      @media only screen and (min-width: 1150px) {
+        .homeButton {
+          min-height: 46%;
+        }
+      @media only screen and (min-width: 1200px) {
+        .homeButton {
+          min-height: 49%;
+        }
+      @media only screen and (min-width: 1250px) {
+        .homeButton {
+          min-height: 53%;
+        }
+      @media only screen and (min-width: 1400px) {
+        .homeButton {
+          min-height: 59%;
+        }
+
+
+
