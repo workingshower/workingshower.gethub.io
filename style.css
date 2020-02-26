@@ -129,6 +129,14 @@
       opacity: 0.38;
     }
 
+      .lower {
+      text-align: center;
+      margin-top: -8%;
+      font-family: "MollySansLight";
+      font-size: 0.7em;
+      opacity: 0.38;
+    }
+
     #openHousetitle {
       margin-top: -30%;
     }
