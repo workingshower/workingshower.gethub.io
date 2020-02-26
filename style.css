@@ -15,6 +15,10 @@
     font-family: "MollySansThin";
     src: url(fonts/MollySansN-Th_PERSONAL.ttf) format("truetype");
 }   
+  @font-face {
+    font-family: "Gotham";
+    src: url(fonts/Gotham-Light.otf) format("opentype");
+}   
 
    body {
       margin: 0px 0px 0px 0px;
@@ -61,6 +65,17 @@
         min-height: 100%;
         width: 84.59%;
         max-width: 84.59%;
+        padding-top: 33%;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 2;
+    }
+
+        .CadillacContainer {
+        position: relative;
+        min-height: 100%;
+        width: 69.18%;
+        max-width: 69.18%;
         padding-top: 33%;
         margin-right: auto;
         margin-left: auto;
@@ -130,7 +145,6 @@
     .listHeadline {
       text-align: center;
       font-family: "MollySansBold";
-
     }
 
     #horizonRepeater {
@@ -153,12 +167,22 @@
     }
 
     .HorizonDescription {
-      font-family: sans-serif;
-      font-size: .8em;
+      font-family: "Gotham";
+      font-size: 14px;
       margin-top: 5%;
-      margin-bottom: 5%;
-      text-align: justify;
+      margin-bottom: 3%;
+      width: 100%;
+      text-align: center;
+    }
 
+    span.HorizonDescription {
+      max-width: 100%;
+      display: block;
+      text-align: justify;
+    }
+
+    .descriptionContainer {
+      width: 100%;
     }
 
     .parent {
