@@ -507,7 +507,7 @@
     -webkit-transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(-30deg);
+    -webkit-transform: rotate(30deg);
   }
 }
 
