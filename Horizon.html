@@ -27,6 +27,20 @@
     <link rel="shortcut icon" href="http://workingshower.github.io/favicon.png"/>
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <script type="text/javascript">
+        function ani(){
+          document.getElementById('img').className ='LeftTurn';
+        }
+
+          function ani2(){
+          document.getElementById('img2').className ='RightTurn';
+        }
+
+        function delay (URL) {
+        setTimeout( function() { window.location = URL }, 500 );
+        }
+    </script>
+
   </head>
   <body>
     <a href="http://www.workingshower.com"><div class="homeButton"></div></a>
@@ -34,22 +48,36 @@
       <div class="container">
         <h1 class="horizonHeadline">Horizon Lasts Longer, Man.</h1>
         <div class="flexContainer2"> 
-          <span class="HorizonDescription">Horizon Organic® has a longer shelf life than traditional milk; that's why it's a solid value for single people and a perfect fit for late-night.</span>
+          <span class="HorizonDescription">Because it offers a longer shelf life than traditional milk, Horizon Organic® is perfect for singles & prime for late-night.</span>
         </div>
           <div class="iframeContainer">
             <iframe src="https://www.youtube.com/embed/yhizDI7---I?list=PLYxQC3lGAQ98Prryae6OP1er9j8S669ID&autoplay=0&mute=0&loop=1&controls=1" allow="autoplay"></iframe>
           </div>
         <div class="flexContainer2"> 
-          <span class="HorizonDescription">While the video above only airs for a few hours after midnight, digital & OOH ads inspired by Slow TV can play on a loop 'til the cows come home.</span>
+          <span class="HorizonDescription">While the pre-roll above  only runs for a few hours each night, slow-TV-inspired digital ads loop 'til the cows come home.</span>
         </div>
           <div class="iframeContainer">
             <iframe src="https://www.youtube.com/embed/hShLqvZIK9A?list=PLdHWVv0ccQQJEMaLzjV52SPLfHPXZWewG&autoplay=1&mute=1&loop=1&controls=0" allow="autoplay"></iframe>
           </div>
-        </div>
+        
+        <div class="KnobsBox">
+          <div class="LeftKnob">
+          <a name="" type="button" onclick="ani()" href="javascript:delay('http://www.workingshower.com')">
+          <img class="KnobIMG" id="img" src="https://i.imgur.com/ixiqBmF.png" >
+          </a>
+          </div>
+          <div class="RightKnob">
+            <a name="" type="button" onclick="ani2()" href="javascript:delay('http://www.workingshower.com')">
+           <img class="KnobIMG" id="img2" src="https://i.imgur.com/guZBgJq.png">
+           </a>
+          </div>
+      </div>
+    </div>
       </div>
       <div class="footer">
         <p>Will@workingshower.com</p>
       </div>
+
   </body>
 </html>
 

@@ -222,6 +222,10 @@
       max-width: 100%;
     }
 
+    .KnobIMG {
+      max-width: 100%;
+    }
+
     .CadillacImage {
       max-width: 100%;
     }
@@ -327,9 +331,36 @@
       width: 100%;
     }
 
+    .knobsBox {
+      width: 100%
+      height: auto;
+      display: flex;
+    }
+
+    .LeftKnob {
+      float: left;
+      width: 50%;
+      height: auto;
+      opacity: 90%;
+
+    }
+
+    .RightKnob {
+      float: right;
+      width: 50%;
+      height: auto;
+      opacity: 90%;
+    }
+
     .footer {
       width: 100%;
-      height: 20px;
+      height: auto;
+    }
+
+   .footer>p {
+      font-family: "MollySansLight";
+      text-align: center;
+      margin-bottom: 20px;
     }
 
       @media only screen and (min-width: 550px) {
@@ -444,5 +475,39 @@
           margin-right: 22.5%;
         }
       }
+
+      .LeftTurn {
+  max-width: 100%;
+  -webkit-animation-name: cssAnimation;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes cssAnimation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-30deg);
+  }
+}
+
+      .RightTurn {
+  max-width: 100%;
+  -webkit-animation-name: cssAnimation;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes cssAnimation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(30deg);
+  }
+}
 
 
