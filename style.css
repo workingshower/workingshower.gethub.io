@@ -257,11 +257,6 @@
       opacity: .43;
     }
 
-    @media only screen and (max-width: 585px){
-      .horizonHeadline {
-        font-size: 1.1em;
-      }
-    }
 
     .IKEAHeadline {
       font-family: "MollySansBold";
@@ -475,6 +470,12 @@
           margin-right: 22.5%;
         }
       }
+
+          @media only screen and (max-width: 585px){
+      .horizonHeadline {
+        font-size: 1.1em;
+      }
+    }
 
       .LeftTurn {
   max-width: 100%;
