@@ -222,6 +222,11 @@
       max-width: 100%;
     }
 
+    .OpenHouseImageFlex {
+      max-width: 33.333%;
+      float: left;
+    }
+
     .KnobIMG {
       max-width: 100%;
     }
