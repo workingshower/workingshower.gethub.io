@@ -177,9 +177,9 @@
     .HorizonDescription {
       font-family: "Gotham";
       font-size: 14px;
-      margin-top: 5%;
-      margin-bottom: 5%;
       width: 100%;
+      padding-bottom: 2%;
+      padding-top: 2%;
     }
 
     span.HorizonDescription {
@@ -200,6 +200,8 @@
 
     .descriptionContainer {
       width: 100%;
+      display: block;
+
     }
 
     .parent {
@@ -225,6 +227,13 @@
     .OpenHouseImageFlex {
       max-width: 33.333%;
       float: left;
+      margin-bottom: 4px;
+    }
+
+    .OpenHouseImageFlex2 {
+      max-width: 50%;
+      float: left;
+      margin-bottom: 4px;
     }
 
     .KnobIMG {
@@ -268,7 +277,9 @@
       margin-right: auto;
       margin-left: auto;
       z-index: 2;
-      margin-top: 5%;
+      padding-top: 3%;
+      padding-bottom: 0%;
+      margin: 0;
       text-align: center;
       opacity: .43;
     }
@@ -350,6 +361,17 @@
       width: 50%;
       height: auto;
       opacity: 90%;
+    }
+
+    .floatleft50 {
+      float: left;
+      width: 50%;
+      height: auto;
+    }
+      .floatright50 {
+      float: right;
+      width: 50%;
+      background-color: blue;
     }
 
     .footer {
