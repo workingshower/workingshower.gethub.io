@@ -71,6 +71,15 @@
         z-index: 2;
     }
 
+        .container2 {
+        position: relative;
+        min-height: 100%;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 2;
+    }
+
         .CadillacContainer {
         position: relative;
         min-height: 100%;
@@ -296,7 +305,7 @@
       position: relative;
     }
 
-     .iframeContainer iframe {
+     .iframeContainer>iframe {
       border: 0;
       height: 100%;
       left: 0;
