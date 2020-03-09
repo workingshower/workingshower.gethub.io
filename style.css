@@ -236,6 +236,12 @@
       margin-bottom: 4px;
     }
 
+      .OpenHouseImageFlex3 {
+      max-width: 50%;
+      float: right;
+      margin-bottom: 4px;
+    }
+
     .KnobIMG {
       max-width: 100%;
     }
@@ -343,10 +349,21 @@
     }
 
     .knobsBox {
-      width: 100%
+      width: 100%;
       height: auto;
       display: flex;
       z-index: 3;
+    }
+
+      .knobsBox2 {
+      width: 100%;
+      height: auto;
+      display: flex;
+      z-index: 3;
+    }
+
+    .knobsBox2 img {
+      max-width: 50%;
     }
 
     .LeftKnob {
