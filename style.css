@@ -249,6 +249,7 @@
     max-width: 50%;
     float: left;
     margin-bottom: 4px;
+    align-self: center;
     }
 
     .KnobIMG {
@@ -383,6 +384,7 @@
       height: auto;
       display: flex;
       z-index: 3;
+      align-self: center;
     }
 
     .knobsBox2 img {
